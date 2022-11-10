@@ -1,0 +1,121 @@
+body {
+	margin-left: 20px;
+	margin-top: 30px;
+  font-family: "Lato", sans-serif;
+	color: #f1f1f1;
+	background-color: #222;
+}
+.container{
+	display: flex;
+}
+.photo{
+	position: relative;
+	left: 30px;
+	width: 30%;
+	margin-top: 50px;
+}
+.navBar{
+	width: 30%;
+	position: relative;
+	top: 20px;
+}
+.info{
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 15px;
+	display: block;
+  color: #818181;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.text_container{
+	background-color: #222;
+	overflow: hidden;
+}
+
+.text_container .text{
+	position: relative;
+	color: steelblue;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.text.first-text{
+	color: aliceblue;
+}
+.text.second-text:before{
+content: " ";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: #222;
+
+animation: animate 4s steps(17) infinite;
+}
+/* HERE*/
+@keyframes animate{
+	50%,50%{
+		left: 100%;
+	}
+	
+}
+p{
+	font-family: inherit;
+	color: beige;
+}
+.button_div{
+	margin-top: 10px;
+	display: flex;
+	font-size: 20px;
+}
+.button {
+  background-color: #222;
+  border:2px solid steelblue;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color:solid steelblue;
+}
+

@@ -1,0 +1,219 @@
+body{
+	height: 100vh;
+	margin-top: 10px;
+	background-color: #222;
+	color: aliceblue;
+	font-family: "Lato", sans-serif;
+	
+}
+.container1{
+	width: 100%;
+	height: 100%;
+
+}
+.intro{
+	text-align: center;
+	justify-content: center;
+}
+h1{
+	font-size: 50px;
+	font-weight: 900;
+	
+}
+.line1,.line2{
+
+	width: 40px;
+	height: 3px;
+	background-color:steelblue;
+}
+.line1{
+
+	position: relative;
+	top: 34px;
+	left: 400px;
+}
+.line2{
+	position: relative;
+	left: 990px;
+	bottom:30px ;
+}
+.navBar{
+	width: 30%;
+	position: relative;
+	top: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+	z-index: 1;
+  background-color: #222;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 15px;
+	display: block;
+  color: #818181;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.photo{
+	position: relative;
+	left: 300px;
+}
+.info{
+	display: flex;
+}
+.column1{
+	margin: 20px;
+	position: relative;
+	left: 325px;
+	top: 60px;
+	color: #f1f1f1;
+}
+p{
+	padding: 7px;
+	color: aliceblue;
+}
+a{
+	color: aliceblue;
+}
+.column2{
+	margin: 20px;
+	position: relative;
+	left: 420px;
+	top: 60px;
+}
+.button_div{
+	margin-top: 10px;
+	display: flex;
+	font-size: 20px;
+}
+.button {
+	position: relative;
+	left: 750px;
+	top:-100px;
+  background-color: steelblue;
+  border:2px solid steelblue;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.line{
+	position: relative;
+	left: 200px;
+	width: 1000px;
+	height: 2px;
+	background: #818181;
+	
+}
+.more{
+	display: flex;
+}
+.education{
+width: 550px;
+margin-left: 200px;
+display: flex;
+}
+.dot {
+	position: relative;
+	top: -12px;
+  height: 20px;
+  width: 20px;
+  background-color: steelblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.design{
+	position: relative;
+	top: 100px;
+	left: -150px;
+	display: block;
+}
+.vl {
+	width: 20px;
+  border-left: 3px solid steelblue;
+  height: 150px;
+  position: relative;
+	top: -12px;
+	left: 8px;
+  
+}
+h2,h4{
+	color: steelblue;
+}
+.edu{
+	position: relative;
+	top: 70px;
+	left: -120px;
+	font-size: small;
+}
+.exp{
+	position: relative;
+	top: 70px;
+	left: -120px;
+	font-size: medium;
+}
+.experience{
+	width: 550px;
+	margin-left: 50px;
+	display: flex;
+	}
+.dot2 {
+	position: relative;
+	top: -12px;
+  height: 20px;
+  width: 20px;
+  background-color: steelblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.design2{
+	position: relative;
+	top: 100px;
+	left: -170px;
+	display: block;
+}
+.vl2 {
+	width: 20px;
+  border-left: 3px solid steelblue;
+  height: 150px;
+  position: relative;
+	top: -12px;
+	left: 8px;
+  
+}
+.skills{
+	position: relative;
+	top: 100px;
+	left: 200px;
+	color: #f1f1f1;
+}

@@ -14,7 +14,7 @@ body {
 }
 .photo{
 	position: relative;
-	left: 30px;
+	left: 200px;
 	width: 30%;
 	margin-top: 50px;
 }
@@ -24,6 +24,9 @@ body {
 	top: 20px;
 }
 .info{
+  width: 700px;
+  position: relative;
+  left: 180px;
 	margin-top: 150px;
 	margin-left: 50px;
 	margin-right: 20px;

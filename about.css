@@ -144,7 +144,7 @@ a{
 	display: flex;
 }
 .education{
-width: 550px;
+width: 950px;
 margin-left: 200px;
 display: flex;
 }
@@ -166,7 +166,7 @@ display: flex;
 .vl {
 	width: 20px;
   border-left: 3px solid steelblue;
-  height: 150px;
+  height: 200px;
   position: relative;
 	top: -12px;
 	left: 8px;
@@ -188,7 +188,9 @@ h2,h4{
 	font-size: medium;
 }
 .experience{
-	width: 550px;
+	position: relative;
+	left: 200px;
+	width: 950px;
 	margin-left: 50px;
 	display: flex;
 	}
@@ -210,7 +212,7 @@ h2,h4{
 .vl2 {
 	width: 20px;
   border-left: 3px solid steelblue;
-  height: 150px;
+  height: 200px;
   position: relative;
 	top: -12px;
 	left: 8px;
